@@ -1,0 +1,49 @@
+<root>
+<links>
+<element>
+<address>https://twitter.com/bvsc_joinville/status/1650832941331759105</address>
+<connectionTimeOut>-1</connectionTimeOut>
+<hotlinkProtected>false</hotlinkProtected>
+<otherPropertiesMap>
+<CustomFileName>1650832941331759105</CustomFileName>
+<CustomFolderName>bvsc_joinville</CustomFolderName>
+<created_at>Tue Apr 25 12:03:38 +0000 2023</created_at>
+<favorite_count>5</favorite_count>
+<full_url>https://twitter.com/bvsc_joinville/status/1650832941331759105</full_url>
+<is_quoted_tweet>false</is_quoted_tweet>
+<is_reply_tweet>false</is_reply_tweet>
+<is_retweet>false</is_retweet>
+<owner_display_name>Bombeiros Voluntários de Joinville</owner_display_name>
+<owner_screen_name>bvsc_joinville</owner_screen_name>
+<quote_count>0</quote_count>
+<reply_count>0</reply_count>
+<retweet_count>0</retweet_count>
+<status_id>1650832941331759105</status_id>
+<tweet_text>Ocorrência: 25/04 - 09h04 - Carro x Moto Localização: Rua Guanabara, 2105 - Bairro: Guanabara</tweet_text>
+</otherPropertiesMap>
+</element>
+<element>
+<address>https://twitter.com/bvsc_joinville/status/1650848798959190016</address>
+<connectionTimeOut>-1</connectionTimeOut>
+<hotlinkProtected>false</hotlinkProtected>
+<otherPropertiesMap>
+<CustomFileName>1650848798959190016</CustomFileName>
+<CustomFolderName>bvsc_joinville</CustomFolderName>
+<created_at>Tue Apr 25 13:06:39 +0000 2023</created_at>
+<favorite_count>5</favorite_count>
+<full_url>https://twitter.com/bvsc_joinville/status/1650848798959190016</full_url>
+<is_quoted_tweet>false</is_quoted_tweet>
+<is_reply_tweet>false</is_reply_tweet>
+<is_retweet>false</is_retweet>
+<owner_display_name>Bombeiros Voluntários de Joinville</owner_display_name>
+<owner_screen_name>bvsc_joinville</owner_screen_name>
+<quote_count>0</quote_count>
+<reply_count>1</reply_count>
+<retweet_count>0</retweet_count>
+<status_id>1650848798959190016</status_id>
+<tweet_text>Ocorrência: 25/04 - 10h05 - Carro x Moto Localização: Rua Benjamin Constant, 231 - Bairro: América</tweet_text>
+</otherPropertiesMap>
+</element>
+</links>
+<title>WFDownloader export of batch 1695410493275</title>
+</root>
