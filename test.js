@@ -55,7 +55,7 @@ const ticksResponse = async (res) => {
       <p>Quote: ${tick.quote}</p>
       <p>Symbol: ${tick.symbol}</p>
     `;
-    console.log('Generated HTML:', html); // Adicionei este console.log
+    console.log('Generated HTML:', html); // Adicionei2 este console.log
     dadosElement.innerHTML = html;
   }
 };
