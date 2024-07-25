@@ -45,6 +45,7 @@ const ticksResponse = async (res) => {
   // Allows you to monitor ticks.
   if (data.msg_type === 'tick') {
     const tick = data.tick;
+    console.log('Received tick data:', tick); // Adicionei este console.log
     const html = `
       <p>Ask: ${tick.ask}</p>
       <p>Bid: ${tick.bid}</p>
@@ -54,6 +55,7 @@ const ticksResponse = async (res) => {
       <p>Quote: ${tick.quote}</p>
       <p>Symbol: ${tick.symbol}</p>
     `;
+    console.log('Generated HTML:', html); // Adicionei este console.log
     dadosElement.innerHTML = html;
   }
 };
