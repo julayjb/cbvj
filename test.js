@@ -70,3 +70,29 @@ unsubscribe_ticks_button.addEventListener('click', unsubscribeTicks);
 
 const ticks_history_button = document.querySelector('#ticks-history');
 ticks_history_button.addEventListener('click', getTicksHistory);
+
+const dadosElement = document.getElementById('dados');
+
+const ticksResponse = async (res) => {
+  const data = JSON.parse(res.data);
+  // This example returns an object with a selected amount of past ticks.
+  if (data.error !== undefined) {
+    console.log('Error : ', data.error.message);
+    connection.removeEventListener('message', ticksResponse, false);
+    await api.disconnect();
+  }
+  // Allows you to monitor ticks.
+  if (data.msg_type === 'tick') {
+    const tick = data.tick;
+    const html = `
+      <p>Ask: ${tick.ask}</p>
+      <p>Bid: ${tick.bid}</p>
+      <p>Epoch: ${tick.epoch}</p>
+      <p>ID: ${tick.id}</p>
+      <p>Pip Size: ${tick.pip_size}</p>
+      <p>Quote: ${tick.quote}</p>
+      <p>Symbol: ${tick.symbol}</p>
+    `;
+    dadosElement.innerHTML = html;
+  }
+};
