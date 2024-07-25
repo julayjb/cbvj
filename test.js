@@ -84,5 +84,5 @@ unsubscribe_ticks_button.addEventListener('click', unsubscribeTicks);
 const ticks_history_button = document.querySelector('#ticks-history');
 ticks_history_button.addEventListener('click', getTicksHistory);
 
-const dadosElement = document.getElementById('dados');
+
 
